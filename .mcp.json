@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "sellat": {
+      "command": "npx",
+      "args": ["-y", "sellat-mcp"],
+      "env": {
+        "SELLAT_API_TOKEN": "${SELLAT_API_TOKEN}"
+      }
+    }
+  }
+}
